@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TU TIENDA MUSICAL"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CATEGORIAS"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="174dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/guitarra"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="174dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/guitarra"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="143dp"
+        tools:srcCompat="@drawable/_1woih5ekgl__ac_sx425_" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="174dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/guitarra"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="360dp"
+        tools:srcCompat="@drawable/bateria__instrumento_musical_" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="174dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/guitarra"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="360dp"
+        tools:srcCompat="@drawable/grand_piano" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

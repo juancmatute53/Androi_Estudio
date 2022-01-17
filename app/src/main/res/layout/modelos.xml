@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="162dp"
+        android:layout_height="159dp"
+        app:srcCompat="@drawable/unnamed"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:srcCompat="@drawable/d_nq_np_602060_mec48611994304_122021_o" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="205dp"
+        android:layout_height="53dp"
+        android:text="Guitarra Electrica Rogue Rocketeer Original Kit Pro + Ampli"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="113dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="LEER MAS..."
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$350"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUITARRAS"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGRESAR"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODELOS"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="162dp"
+        android:layout_height="159dp"
+        app:srcCompat="@drawable/unnamed"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="205dp"
+        android:layout_height="53dp"
+        android:text="Guitarra Clasica + Vitela + Capo + Estuche + Afinador"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$50"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="113dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="LEER MAS..."
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
